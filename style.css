@@ -113,3 +113,17 @@ font-family: 'Montserrat', sans-serif; */
     border-radius: 50px;
     outline: none;
 }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        height: 100%;
+    }
+
+    .cards-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 50px;
+    }
+}
